@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Viga&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:  'Arimo', sans-serif;
+}
+:root{
+       --white: #ffffff;
+       --light-green: #1ec2ad;
+       --blue: #205cfa;
+       --red: #e8465a;
+       --dark-red: #a83341;
+       --gray: #adabaa;
+       --black: #172422;
+       --dark-gray:#ddd;
+       --lighter-gray:#f4f4f4;
+       --dark-blue:#101d3d;
+   }
+
+h4{
+  margin-top: 50px;
+  text-align: center;
+  color:var(--red);
+  font-weight: 600;
+  font-size: 35px;
+}
+.btn-primary{
+  border: none;
+  color: var(--white);
+  background: var(--red);
+}
+.btn-primary:hover{
+  color: var(--white);
+  background: var(--dark-blue);
+}
+.btn-danger{
+  background-color: var(--red);
+  border: none;
+}
+.btn-success{
+  background-color: var(--dark-blue);
+  border: none;
+}
+.btn-success:hover{
+  background-color: var(--blue);
+}
+.link-primary{
+  font-size: 20px;
+  background-color: var(--blue);
+  color:#fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 50px;
+}
+.link-primary:hover{
+  background-color: var(--dark-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+.card {
+  padding: 50px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 50px;
+	justify-content: center;
+	align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2{
+  text-align: center;
+  color: var(--blue);
+}
+p {
+  text-align: center;
+}
+span{
+  color: var(--red);
+  font-size: 14px;
+}
+a {
+  display: block;
+  text-align: center;
+}
+table , th, td {
+  border: solid 2px #eee;
+  border-collapse: collapse
+}
